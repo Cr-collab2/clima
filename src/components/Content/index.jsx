@@ -51,10 +51,10 @@ export function Content(props){
                  {
                    resArrayComplete.map((element, index ) => {
                    if(index  > 0){
-                      return <ClimaDay element={element}/>
+                      return <ClimaDay element={element} indice={index}/>
                    
                    }
-
+                 
                   
                   } )
                  }
